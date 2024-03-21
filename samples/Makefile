@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: GPL-2.0
 # Makefile for Linux samples code
-#cflags-y += -I$(srctree)/tools/testing/selftests
+
 subdir-$(CONFIG_SAMPLE_AUXDISPLAY)	+= auxdisplay
 subdir-$(CONFIG_SAMPLE_ANDROID_BINDERFS) += binderfs
 subdir-$(CONFIG_SAMPLE_CGROUP) += cgroup
